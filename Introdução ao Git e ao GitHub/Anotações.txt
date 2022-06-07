@@ -1,0 +1,2 @@
+Anotações sobre o curso de Git e GitHub
+O git Bash é um terminal extendido para otimizar o uso do Git

@@ -1,0 +1,119 @@
+CSS 3 - você cria regras de estilo pra elementos ou grupos de elementos
+
+Seletores - elementos html
+{ declarações : propriedade e valor }
+
+Id e Class
+Classe - Precedido por um . (ponto)
+ID - precedido por # só pode ser usado uma vez na página
+
+Box model
+margin Margem - espaçamento entre elementos
+border borda - circunda o padding e o conteúdo
+padding - espaçamento entre a borda e o conteúdo
+content conteúdo - o que o bloco representa (texto, imagem, vídeo)
+
+Padding e Margin
+.post {
+padding: 10px (superior e inferior - eixo y) 5px (esquerdo e direito - eixo x);
+}
+
+.post {
+padding 15px (topo) 10px (direita) 5px (inferior) 0 (esquerdo - 0 não precisa de unidade);
+}
+
+.post {
+padding-top: 15px;
+padding-right: 10px;
+padding-bottom: 5px;
+padding-left: 0;
+}
+
+.post {
+background-color: green;
+background-image: url("bg.png");
+background-position: top;
+}
+
+background-color: green;
+background-color: #008800;
+background: #008800;
+
+Border pode ter três valores:
+largura: pixels, cm, mm
+cor: blue, #00ff...
+estilo: sólida, pontilhada, tracejada...
+
+.post{
+border: 3px solid blue;
+border-top: 2px dotted green;
+border-right: 4px dashed pink;
+} 
+
+.post {
+border-top: largura, estilo e cor
+border-right:
+border-bottom:
+border-left:
+
+border-width: 3px;
+border-color: #505050;
+border-style: solid;
+
+border-top-width: 3px;
+border-top-color: blue;
+border-top-style: dashed;
+
+Border-radius
+Pixels e porcentagens
+
+border-radius: 10px;
+border-radius: 50%;
+border-radius: cima, direita, baixo, esquerda;
+
+Estilizando Textos
+font-family: Verdana; Altera a fonte do texto
+
+#title {
+font-family: Verdana;
+}
+
+.post_title {
+font-family: Verdana, Arial; Caso a primeira não funcione, ela usa a segunda
+}
+
+font-size - altera tamanho
+font-style - altera o estilo: normal, italic;
+font-weight - altera o peso do texto: normal (peso comum), bold(negrito);
+text-transform: altera entre maiusculo e minúsculo: uppercase (caixa alta), lowercase (minuscula), capitalize (Maiuscula e minuscula)
+text-decoration: usado pra dar destaque: underline _, overline acima, line-through cortando o texto;
+
+Estilizando Listas
+ul {
+list-style-type: square;
+}
+
+ol {
+list-stle-type: upper-roman;
+}
+
+ul {
+list-style-type: "\1F44D"; Emoji de joinha
+}
+
+ul {
+list-style-image: url("rocket.png")
+}
+
+
+Dimensão e Alinhamento
+
+Width largura
+Height altura
+
+Max-width largura máxima
+Max-height altura máxima
+
+Margin alinhar a um elemento automaticamente
+
+Text align alinhar textos - a esquerda, a direita, centro, justificado

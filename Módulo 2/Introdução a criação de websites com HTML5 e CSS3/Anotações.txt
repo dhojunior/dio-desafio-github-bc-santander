@@ -18,4 +18,8 @@ Imagens
 src = obrigatório, direciona ao local
 alt = Descrição da foto
 
-Próxima Aula - Listas
+Listas
+<ul> Representa lista em que a ordem não é importante
+
+<ol> Ordem dos itens é importante - representado por números
+<li> Item da lista

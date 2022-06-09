@@ -1,0 +1,55 @@
+Flexbox
+
+Estrutura básica
+
+Flex Container - Tag que envolve os itens - contém itens
+display: flex - transforma todos os itens filhos em flex itens
+Pode ser usada em qualquer tipo de tag: div, spam, h1, h2, a
+
+Propriedades relacionadas:
+display - inicializador do container
+flex-direction - fazer o direcionamento destes itens
+flex-wrap - aplica a quebra de linha
+flex-flow - abreviação do direction e wrap
+justify-content - alinhar itens do container de acordo com a direção
+align-items - alinhar itens de acordo com o eixo do container
+align-content - alinha as linhas desse container
+
+Flex Item - elementos filhos diretos do flex container - também pode ser tornar um flex container
+propriedades
+flex-grow - define fator de crescimento
+flex-basis - define tamanho inicial deste item antes da distribuição do espaço restante
+flex-shrink - define a capacidade de redução
+flex - abreviação das três propriedades acima
+order - relacionada a ordem de distribuição e listagem
+align-self - define o alinhamento de um item específico deste container
+
+Display-flex
+Estrutura Básica do display:flex
+
+consegue aplicar pra qualquer tipo de tag do html
+
+Flex Direction
+row(padrão): à direita do texto, esquerda para direita
+row-reverse: da direita pra esquerda
+column: ordenação de cima pra baixo, em coluna única
+column-reverse: de baixo pra cima, em coluna única
+
+Flex Wrap
+É a propriedade que define se os itens devem ou não quebrar a linha
+Por padrão eles não quebram a linha, isso faz com que os flex itens sejam capactados além do limite do conteúdo
+
+nowrap: é o padrão, não permite a quebra de linha.
+podem existir duas situações: onde os itens são comportados dentro do container, ou quando os itens excedem o tamanho.
+
+Wrap
+permite a quebra de linha de modo que o primeiro elemento que não seja comportado dentro do container, esse vá para a linha de baixo
+
+Wrap-reverse
+permite a quebra de linha mas no sentido contrário, o que excede sobe
+
+Flex Flow
+Atalho para as propriedades flex-direction e flex-wrap
+comprime as duas propriedades em uma linha - não é muito comum, visto que quando mudamos para column, mantemos o padrão flex-weap que é nowrap
+
+Próxima Aula - Estrutura Básica do Justify Content

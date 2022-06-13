@@ -53,3 +53,42 @@ Atalho para as propriedades flex-direction e flex-wrap
 comprime as duas propriedades em uma linha - não é muito comum, visto que quando mudamos para column, mantemos o padrão flex-weap que é nowrap
 
 Próxima Aula - Estrutura Básica do Justify Content
+
+Justify Content
+alinhamento dos itens dentro do container, tratando a distribuição de espaço entre eles
+se os elementos ocupam 100% DO CONTAINER, não tem como aplicar essa propriedade
+
+
+flex-start: início do container
+flex-end: final do container
+center: ao centro do container
+space-between: cria um espaçamento igual entre os elementos
+space-around: os espaçamentos do meio são duas vezes maiores que o inicial e final
+
+
+Align itens
+Align-itens trata do alinhamentos dos flex-itens de acordo com o eixo do container
+é diferente quando itens estão em linhas ou colunas
+permite o alinhamento central no eixo vertical
+
+diferencia do justify-content pois não precisa da altura dos itens
+Tipos de alinhamentos:
+center - alinhamento ao centro
+stretch: padrão - cresçam igualmente
+flex-start: alinhamento dos itens no ínicio
+flex-start: alinhamento no final
+baseline: alinhamento de acordo com a linha base da tipografia dos itens
+
+Align Content
+É responsável por tratar o eixo vertical - trabalhar a orientação das linhas desse container
+Nosso container deve respeitar algumas orientação:
+utilize quebra de linha
+a altura do container deve ser maior do que a soma das linhas dos itens
+
+Tipos de alinhamento:
+center: ao centro
+stretch: padrão, crescem igualmente
+flex-start: alinhamento ao início do container
+flex-end: alinhamento ao final
+space-between: espaçamento igual entre os itens
+space-around: espaçamento do meio duas vezes maiores que início e fim

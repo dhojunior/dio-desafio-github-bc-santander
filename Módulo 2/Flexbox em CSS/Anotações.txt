@@ -92,3 +92,26 @@ flex-start: alinhamento ao início do container
 flex-end: alinhamento ao final
 space-between: espaçamento igual entre os itens
 space-around: espaçamento do meio duas vezes maiores que início e fim
+
+------------------------------------------
+Flex itens
+------------------------------------------
+
+Flex-grow
+define a proporcionalidade de crescimento dos itens, respeitando o tamanho de seus conteúdos interno.
+OBS: não irá funcionar caso tenha utilizado justify-content ao flex container
+Vai ser 0 ou algum número relacionado a proporção de crescimento
+
+------------------------------------------
+
+
+Flex-basis
+Estabelece o tamanho inicial do item antes das distribuições de espaço restante dele
+Valores:
+auto - caso o item não tenha tamanho, será proporcional ao conteúdo
+px, %, em,...: são valores exatos previamente definidos
+0: terá relação com a definição do flex-grow
+
+-----
+Próxima Aula - Estrutura básica do flex shrink
+-----
